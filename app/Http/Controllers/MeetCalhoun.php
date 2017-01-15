@@ -14,6 +14,7 @@ class MeetCalhoun extends Controller
     public function index()
     {
         //
+        return view('meetCalhoun', compact());
     }
 
     /**

@@ -14,6 +14,7 @@ class BoatRamp extends Controller
     public function index()
     {
         //
+        return view('boatramp', compact());
     }
 
     /**

@@ -14,6 +14,7 @@ class Rates extends Controller
     public function index()
     {
         //
+        return view('rates', compact());
     }
 
     /**

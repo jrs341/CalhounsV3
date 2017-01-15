@@ -14,6 +14,7 @@ class CurrentWeather extends Controller
     public function index()
     {
         //
+        return view('currentWeather', compact());
     }
 
     /**

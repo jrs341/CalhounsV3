@@ -14,6 +14,7 @@
     </head>
     <body>
       <div class="container">
+        <h1> This is the layout</h1>
         @yield('content')
       </div>
 

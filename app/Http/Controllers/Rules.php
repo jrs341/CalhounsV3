@@ -14,6 +14,7 @@ class Rules extends Controller
     public function index()
     {
         //
+        return view('rules', compact());
     }
 
     /**

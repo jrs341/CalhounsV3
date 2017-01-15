@@ -14,6 +14,7 @@ class Cabins extends Controller
     public function index()
     {
         //
+        return view('cabins', compact());
     }
 
     /**
