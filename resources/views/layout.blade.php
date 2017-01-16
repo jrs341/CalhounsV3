@@ -6,27 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="RV Park">
     <meta name="author" content="Jason Sinn">
-    <link rel="shortcut icon" href="../public/css/images/favicon.ico" />
+    <link rel="shortcut icon" href="../public/css/images/favicon.ico">
 
     <title>@yield('title')</title>
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
     <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <!-- Bootstrap Core CSS -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-    <!-- Custom CSS -->
-    <link href="style.php" rel="stylesheet" type="text/css">
-    <!-- @yeild(css) -->
+    
 </head>
 
 <body>
+<style> <?php include '../public/css/style.css'; ?> </style>
     <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
             <div id='logo'>
-            <a href="index.html">
+            <a href="/">
                 <img id="logo" src="./images/circleC.png">
             </a>
             </div>
@@ -41,7 +40,7 @@
                     <span class="icon-bar"></span>
                 </button>
                
-                <a class="navbar-brand" href="index.html">Calhoun's Riverside RV Retreat</a>
+                <a class="navbar-brand" href="/">Calhoun's Riverside RV Retreat</a>
 
             </div>
 
@@ -49,33 +48,36 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="index.html">About</a>
+                        <a href="/">About</a>
                     </li>
                     
                     <li>
-                        <a href="contact.html">Contact</a>
+                        <a href="contact">Contact</a>
                     </li>
                    
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Additional Information<b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li>
-                                <a href="rates.html">Current Rates</a>
+                                <a href="rates">Current Rates</a>
                             </li>
                             <li>
-                                <a href="cabins.html">Cabins</a>
+                                <a href="cabins">Cabins</a>
                             </li>
                             <li>
-                                <a href="rules.html">Rules</a>
+                                <a href="rules">Rules</a>
                             </li>
                             <li>
-                                <a href="rentalAgreements.html">Rental Agreements</a>
+                                <a href="cabinLease">Rental Agreements</a>
                             </li>
                             <li>
-                                <a href="boatramp.html">Boat Ramp</a>
+                                <a href="rvSiteAgreement">Rental Agreements</a>
                             </li>
                             <li>
-                                <a href="meetCalhoun.html">Meet Calhoun</a>
+                                <a href="boatramp">Boat Ramp</a>
+                            </li>
+                            <li>
+                                <a href="meetCalhoun">Meet Calhoun</a>
                             </li>
                             <li>
                                 <a href="http://www.lacrossealertsmobile.com/v1.2/#device-7FFF4349485CC4E6">Current Weather</a>
@@ -84,7 +86,7 @@
                                 <a href="http://www.accuweather.com/en/us/port-lavaca-tx/77979/weather-forecast/335931">Local Weather Radar</a>
                             </li>
                             <li>
-                                <a href="riverLevel.html">River Level Info</a>
+                                <a href="riverLevel">River Level Info</a>
                             </li>
                         </ul>
                     </li>
@@ -99,7 +101,7 @@
     @yield('content')
     </div>
 
-    <footer>
+    <footer class="navbar-fixed-bottom">
     <div class="row">
         <div class="social col-sm-4 col-sm-offset-4">         
             <a href="https://twitter.com/CalhounsRV?lang=en" class="icon-button twitter"><i class="fa fa-twitter"></i><span></span></a>
@@ -119,10 +121,10 @@
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js">
       </script>
 
-      <script>
+      <!-- <script>
         $('.carousel').carousel({
         interval: 5000 //changes the speed
         })
-      </script>
+      </script> -->
     </body>
 </html>
