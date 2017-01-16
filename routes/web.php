@@ -43,6 +43,10 @@ Route::get('localWeather', function () {
     return view('localWeather');
 });
 
+Route::get('makeReservation', function () {
+    return view('makeReservation');
+});
+
 Route::get('meetCalhoun', function () {
     return view('meetCalhoun');
 });

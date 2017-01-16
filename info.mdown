@@ -1,0 +1,31 @@
+Google cloud platform
+
+	Project ID: calhounsv3
+	Project number:699324253761
+
+	SQL instance: dbcalhouns 
+	IP address:104.198.171.88
+	Failover replica: dbcalhouns-failover
+
+Firebase
+
+
+<script src="https://www.gstatic.com/firebasejs/3.6.5/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyBHcYjiTjtXhJa9tVaqWYGJMzaUISsOXdM",
+    authDomain: "calhounsv3.firebaseapp.com",
+    databaseURL: "https://calhounsv3.firebaseio.com",
+    storageBucket: "calhounsv3.appspot.com",
+    messagingSenderId: "699324253761"
+  };
+  firebase.initializeApp(config);
+</script>
+
+
+Square 
+
+	Sandbox application ID: sandbox-sq0idp-3SQFTUJPRVmha4cthEzvIw
+	Sandbox access token: sandbox-sq0atb-cE1R3HEBQ6xxRU885v7moQ
+
