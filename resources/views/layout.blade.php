@@ -19,11 +19,13 @@
     <link rel="stylesheet" href="{{asset('css/jquery-ui.min.css')}}">
      <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
-    <link rel="stylesheet" href="{{asset('css/style.css')}}">
+    <!-- <link rel="stylesheet" href="{{asset('css/style.css')}}"> -->
 </head>
 
 <body>
-
+<style>
+<?php include ('../public/css/style.css') ?>
+</style>
     <!-- Navigation -->
   <div class="navbar-fixed">
    <nav>
@@ -43,7 +45,8 @@
         <li><a href="mobile.html">Mobile</a></li>
       </ul>
     </div>
-  </nav>
+   </nav>
+ </div>
           
 <!--     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
@@ -144,6 +147,8 @@
     <script src="{{asset('js/external/jquery/jquery.js')}}"></script>
 
     <script src="{{asset('js/jquery-ui.min.js')}}"></script>
+
+    <script src="{{asset('js/main.js')}}"></script>
 
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 

@@ -40,6 +40,10 @@ a:hover, a:focus {
     color: #337ab7;
 }
 
+.caret {
+    border-top: none;
+}
+
 table {
     color: #5a4130;
     border-color: #213fd9;
