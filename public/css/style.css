@@ -7,9 +7,9 @@ body {
 
 body {
     font-family: adobe-garamond-pro;
-    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
-    padding-bottom: 100px;
-    background-image: url('./images/background/old_map/old_map.png');
+    padding-top: 10px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    padding-bottom: 0px;
+    background-image: url('css/images/background/old_map/old_map.png');
 }
 
 h3 {
@@ -66,11 +66,11 @@ table {
 
 .mainImageLoading {
     height: 400px;
-    background: url('../images/general/loading.gif') 50% no-repeat;
+    background: url('css/images/general/loading.gif') 50% no-repeat;
 }
 
 .headerImage {
-    background: url('../images/general/P6191146.jpg') no-repeat center center; 
+    background: url('css/images/general/P6191146.jpg') no-repeat center center; 
     -webkit-background-size: 100% 100%;
     -moz-background-size: 100% 100%;
     -o-background-size: 100% 100%;
@@ -93,7 +93,7 @@ table {
 
 .navbar-inverse .navbar-toggle {
     border-color: #5a4130;
-    background-image: url('../images/background/old_map/old_map.png');
+    background-image: url('css/images/background/old_map/old_map.png');
     /*background-color: #F5DEB3;*/
 }
 
@@ -129,7 +129,7 @@ table {
 }
 
 .dropdown-menu {
-    background-image: url('../images/background/old_map/old_map.png'); 
+    background-image: url('css/images/background/old_map/old_map.png'); 
 }
 
 .dropdown-menu>li>a {

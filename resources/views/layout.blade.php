@@ -16,13 +16,36 @@
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <!-- Bootstrap Core CSS -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-    
+    <link rel="stylesheet" href="{{asset('css/jquery-ui.min.css')}}">
+     <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+    <link rel="stylesheet" href="{{asset('css/style.css')}}">
 </head>
 
 <body>
-<style> <?php include '../public/css/style.css'; ?> </style>
+
     <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+  <div class="navbar-fixed">
+   <nav>
+    <div class="nav-wrapper">
+      <a href="/" class="brand-logo right">Calhoun's Riverside RV Retreat</a>
+      <a href="/" data-activates="mobile-demo" class="button-collapse"><i href="../public/css/images/circleC.png">menu</i></a>
+      <ul class="left hide-on-med-and-down">
+        <li><a href="sass.html">Sass</a></li>
+        <li><a href="badges.html">Components</a></li>
+        <li><a href="collapsible.html">Javascript</a></li>
+        <li><a href="mobile.html">Mobile</a></li>
+      </ul>
+      <ul class="side-nav" id="mobile-demo">
+        <li><a href="sass.html">Sass</a></li>
+        <li><a href="badges.html">Components</a></li>
+        <li><a href="collapsible.html">Javascript</a></li>
+        <li><a href="mobile.html">Mobile</a></li>
+      </ul>
+    </div>
+  </nav>
+          
+<!--     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
             <div id='logo'>
             <a href="/">
@@ -31,7 +54,7 @@
             </div>
 
             <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
+            <!-- <div class="navbar-header">
                 
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span>
@@ -42,10 +65,10 @@
                
                 <a class="navbar-brand" href="/">Calhoun's Riverside RV Retreat</a>
 
-            </div>
+            </div> -->
 
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+           <!--  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
                         <a href="/">About</a>
@@ -91,11 +114,11 @@
                         </ul>
                     </li>
                 </ul>
-            </div>
+            </div> -->
             <!-- /.navbar-collapse -->
-        </div>
+        <!-- </div> -->
         <!-- /.container -->
-    </nav>
+    <!-- </nav> -->
     
     <div class="container">
     @yield('content')
@@ -117,9 +140,15 @@
         </div>
     </div>
     </footer>
+    
+    <script src="{{asset('js/external/jquery/jquery.js')}}"></script>
 
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js">
-      </script>
+    <script src="{{asset('js/jquery-ui.min.js')}}"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+      <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
 
       <!-- <script>
         $('.carousel').carousel({
