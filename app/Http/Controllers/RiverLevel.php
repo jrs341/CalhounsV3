@@ -14,7 +14,7 @@ class RiverLevel extends Controller
     public function index()
     {
         //
-        return view('riverLevel', compact());
+        return view('riverLevel');
     }
 
     /**

@@ -14,7 +14,7 @@ class LocalWeather extends Controller
     public function index()
     {
         //
-        return view('localWeather', compact());
+        return view('localWeather');
     }
 
     /**

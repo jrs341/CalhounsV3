@@ -14,7 +14,7 @@ class RvSiteAgreement extends Controller
     public function index()
     {
         //
-        return view('rvSiteAgreement', compact());
+        return view('rvSiteAgreement');
     }
 
     /**

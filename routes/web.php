@@ -35,5 +35,5 @@ Route::get('rates', 'Rates@index');
 
 Route::get('rvSiteAgreement', 'RvSiteAgreement@index');
 
-
+?>
 

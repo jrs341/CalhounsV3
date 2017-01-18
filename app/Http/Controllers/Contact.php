@@ -14,7 +14,7 @@ class Contact extends Controller
     public function index()
     {
         //
-        return view('contact', compact());
+        return view('contact');
     }
 
     /**
