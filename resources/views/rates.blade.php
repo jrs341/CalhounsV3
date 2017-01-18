@@ -10,7 +10,7 @@ Rates
             <table class="bordered striped">
             <thead>
                 <tr>
-                    <th > 
+                    <th>
                     </th>
                     <th data-field="nightly" > Nightly
                     </th>

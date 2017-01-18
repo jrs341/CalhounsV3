@@ -10,6 +10,9 @@ body {
     padding-top: 10px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
     padding-bottom: 0px;
     background-image: url('css/images/background/old_map/old_map.png');
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
 }
 
 h3 {

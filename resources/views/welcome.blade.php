@@ -12,8 +12,19 @@ Calhoun's Riverside RV Retreat
 <style> <?php include '../public/css/style.css'; ?> </style>
 
 <header id="header" class="headerImage">
-        <!-- <i class="fa fa-spinner fa-pulse fa-3x fa-fw"></i>
-        <span class="sr-only">Loading...</span> -->
+    <!-- <div class="preloader-wrapper active">
+    <div class="spinner-layer spinner-red-only">
+      <div class="circle-clipper left">
+        <div class="circle"></div>
+      </div><div class="gap-patch">
+        <div class="circle"></div>
+      </div><div class="circle-clipper right">
+        <div class="circle"></div>
+      </div>
+    </div>
+  </div> -->
+        <i class="fa fa-spinner fa-pulse fa-3x fa-fw"></i>
+        <span class="sr-only">Loading...</span>
 </header>
 <div class="row">
     <div class="col-lg-12">

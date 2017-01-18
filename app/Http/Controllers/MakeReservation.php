@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class Adim extends Controller
+class MakeReservation extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -13,8 +13,7 @@ class Adim extends Controller
      */
     public function index()
     {
-        //
-        return view('makeReservation', compact());
+        return view('makeReservation');
     }
 
     /**
