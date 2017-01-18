@@ -4,8 +4,16 @@
 Reservation
 @stop
 
-@section('content')
+@section('CDN')
+<div>
+<script src="https://unpkg.com/react@15/dist/react.min.js"></script>
+<script src="https://unpkg.com/react-dom@15/dist/react-dom.min.js"></script>
+<script src="bundle.js"></script>
+</div>
+@stop
 
+@section('content')
+<div>
 <div id="reactTest">
 </div>
   <form action="#">
@@ -92,5 +100,6 @@ Reservation
   <button class="btn waves-effect waves-light" type="submit" name="action">Submit
     <i class="material-icons right">send</i>
   </button>
+  </div>
 
 @stop
