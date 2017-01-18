@@ -28,7 +28,7 @@
 </head>
 
 <body>
-    <style><?php include ('../public/css/style.css') ?></style>
+    <style><?php include ('../public/css/styleMat.css') ?></style>
 
     <!-- Navigation Bar -->
 
