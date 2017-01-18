@@ -4,6 +4,13 @@
 Reservation
 @stop
 
+@section('CDN')
+<div>
+<script src="https://unpkg.com/react@15/dist/react.min.js"></script>
+<script src="https://unpkg.com/react-dom@15/dist/react-dom.min.js"></script>
+</div>
+@stop
+
 @section('content')
   <form action="#">
     <p>Would you like to reserve a cabin or an RV space?
