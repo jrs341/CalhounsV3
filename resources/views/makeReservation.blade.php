@@ -13,12 +13,15 @@ Reservation
 @stop
 
 @section('content')
-
+<div>
 <div id="reactTest">
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 
 >>>>>>> 6ecebdcd6419cbc3d7758510aff655b4d5b78047
+=======
+>>>>>>> 59fd1f2b3e23cb9e05cfb9f8a8e8af37240a5c5c
 </div>
   <form action="#">
     <p>Would you like to reserve a cabin or an RV space?
@@ -104,5 +107,6 @@ Reservation
   <button class="btn waves-effect waves-light" type="submit" name="action">Submit
     <i class="material-icons right">send</i>
   </button>
+  </div>
 
 @stop
