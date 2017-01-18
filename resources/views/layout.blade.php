@@ -22,6 +22,8 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
 
+    <!-- Stylesheet is not working every blade after welcome adding an extra css directory? -->
+
     <!-- <link rel="stylesheet" href="{{asset('css/style.css')}}"> -->
 
     

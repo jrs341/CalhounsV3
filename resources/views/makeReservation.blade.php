@@ -8,12 +8,19 @@ Reservation
 <div>
 <script src="https://unpkg.com/react@15/dist/react.min.js"></script>
 <script src="https://unpkg.com/react-dom@15/dist/react-dom.min.js"></script>
+
+<!-- Using the CDN where do I get the bundle.js from? -->
+
 <script src="bundle.js"></script>
+
 </div>
 @stop
 
 @section('content')
 <div>
+
+<!-- Need to create a react state if all RV spaces are full or all cabins are full so customer doesnt have to go through whole quesiton process to find out if everything is full -->
+
 <div id="reactTest">
 <<<<<<< HEAD
 <<<<<<< HEAD
