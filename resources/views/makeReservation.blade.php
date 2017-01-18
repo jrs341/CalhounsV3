@@ -4,9 +4,21 @@
 Reservation
 @stop
 
+@section('CDN')
+<div>
+<script src="https://unpkg.com/react@15/dist/react.min.js"></script>
+<script src="https://unpkg.com/react-dom@15/dist/react-dom.min.js"></script>
+<script src="bundle.js"></script>
+</div>
+@stop
+
 @section('content')
 
 <div id="reactTest">
+<<<<<<< HEAD
+=======
+
+>>>>>>> 6ecebdcd6419cbc3d7758510aff655b4d5b78047
 </div>
   <form action="#">
     <p>Would you like to reserve a cabin or an RV space?

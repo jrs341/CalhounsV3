@@ -11,16 +11,19 @@
     <title>@yield('title')</title>
 
     <!-- Fonts -->
+
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!-- <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css"> -->
-    <!-- Custom Fonts -->
-    <!-- <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"> -->
-    <!-- Bootstrap Core CSS -->
-    <!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" type="text/css"> -->
+
+    <!-- Compiled and minified jQuery -->
+
     <link rel="stylesheet" href="{{asset('css/jquery-ui.min.css')}}">
+
      <!-- Compiled and minified CSS -->
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+
     <!-- <link rel="stylesheet" href="{{asset('css/style.css')}}"> -->
+
     
 </head>
 
@@ -35,10 +38,10 @@
           <a href="/" class="brand-logo right">Calhoun's Riverside RV Retreat</a>
           <a href="/" data-activates="mobile-demo" class="button-collapse"><i href="../public/css/images/circleC.png">menu</i></a>
           <ul class="left hide-on-med-and-down">
-            <li><a href="sass.html">Sass</a></li>
-            <li><a href="badges.html">Components</a></li>
-            <li><a href="collapsible.html">Javascript</a></li>
-            <li><a href="mobile.html">Mobile</a></li>
+            <li><a href="rates">Rates</a></li>
+            <li><a href="makeReservation">Make a Reservation</a></li>
+            <li><a href="contact">Contact Us</a></li>
+            <li><a href="admin">Admin</a></li>
           </ul>
           <ul class="side-nav" id="mobile-demo">
             <li><a href="sass.html">Sass</a></li>
@@ -57,6 +60,7 @@
     </div>
 
     <!-- Need to add the CSS from materialize for sticky footer, currently CSS for bootstrap -->
+
     <footer class="page-footer">
         <div class="container">
             <div class="row">
@@ -93,5 +97,10 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
 
+    <!-- React CDN for makeReservation page from makeReservation blade -->
+    
+    <div>
+    @yield('CDN')
+    </div>
 </body>
 </html>
