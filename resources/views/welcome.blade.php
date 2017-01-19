@@ -4,28 +4,30 @@
 Calhoun's Riverside RV Retreat
 @stop
 
-@section('css')
-<link href="css/style.css" rel="stylesheet">
-@stop
-
 @section('content')
-<style> <?php include '../public/css/style.css'; ?> </style>
-
 <header id="header" class="headerImage">
-    <!-- <div class="preloader-wrapper active">
-    <div class="spinner-layer spinner-red-only">
-      <div class="circle-clipper left">
-        <div class="circle"></div>
-      </div><div class="gap-patch">
-        <div class="circle"></div>
-      </div><div class="circle-clipper right">
-        <div class="circle"></div>
-      </div>
+<div class="center-align">
+    <div class="preloader-wrapper active">
+        <div class="spinner-layer spinner-red-only">
+            <div class="circle-clipper left">
+                <div class="circle">
+                </div>
+            </div>
+            <div class="gap-patch">
+                <div class="circle">
+                </div>
+            </div>
+            <div class="circle-clipper right">
+                <div class="circle">
+                </div>
+            </div>
+        </div>
     </div>
-  </div> -->
-        <i class="fa fa-spinner fa-pulse fa-3x fa-fw"></i>
-        <span class="sr-only">Loading...</span>
+</div>
+        <!-- <i class="fa fa-spinner fa-pulse fa-3x fa-fw"></i>
+        <span class="sr-only">Loading...</span> -->
 </header>
+<main>
 <div class="row">
     <div class="col-lg-12">
         <h1 class="page-header">
@@ -51,6 +53,7 @@ Calhoun's Riverside RV Retreat
         </p>
     </div>
 </div>
+</main>
 <div class="row">
 	<div class="col-md-4">
     	<div class="panel panel-default">

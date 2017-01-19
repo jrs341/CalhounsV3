@@ -11,8 +11,10 @@
     <title>@yield('title')</title>
 
     <!-- Fonts -->
+    <!-- since FA is in css remove this cdn later -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="{{asset('css/font-awesome.min.css')}}">
 
     <!-- Compiled and minified jQuery -->
 
@@ -22,21 +24,19 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
 
-    <!-- <link rel="stylesheet" href="{{asset('css/style.css')}}"> -->
+    <link rel="stylesheet" href="{{asset('css/styleMat.css')}}">
 
-    
 </head>
 
 <body>
-    <style><?php include ('../public/css/styleMat.css') ?></style>
-
+    
     <!-- Navigation Bar -->
 
       <div class="navbar-fixed">
        <nav>
         <div class="nav-wrapper">
           <a href="/" class="brand-logo right">Calhoun's Riverside RV Retreat</a>
-          <a href="/" data-activates="mobile-demo" class="button-collapse"><i href="../public/css/images/circleC.png">menu</i></a>
+          <a href="/" data-activates="mobile-demo" class="button-collapse"><i href="/">menu</i></a>
           <ul class="left hide-on-med-and-down">
             <li><a href="rates">Rates</a></li>
             <li><a href="makeReservation">Make a Reservation</a></li>
@@ -64,25 +64,17 @@
     <footer class="page-footer">
         <div class="container">
             <div class="row">
-              <div class="col l6 s12">
-                <h5 class="white-text">Footer Content</h5>
-                <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
-              </div>
-              <div class="col l4 offset-l2 s12">
-                <h5 class="white-text">Links</h5>
-                <ul>
-                  <li><a class="grey-text text-lighten-3" href="https://twitter.com/CalhounsRV?lang=en">Twitter</a></li>
-                  <li><a class="grey-text text-lighten-3" href="http://facebook.com">Facebook</a></li>
-                  <li><a class="grey-text text-lighten-3" href="http://plus.google.com">Google +</a></li>
-                  <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
-                </ul>
+              <div class="center-align">
+                <a class="btn-floating btn-large waves-effect waves-light blue"><i class="fa fa-twitter"></i></a>
+                <a class="btn-floating btn-large waves-effect waves-dark blue"><i class="fa fa-facebook"></i></a>
+                <a class="btn-floating btn-large waves-effect waves-light red"><i class="fa fa-google"></i></a>
               </div>
             </div>
         </div>
         <div class="footer-copyright">
             <div class="container">
             Copyright &copy; Calhoun's Riverside RV Retreat 2016
-            <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            <a class="grey-text text-lighten-4 right" href="admin">Admin</a>
             </div>
         </div>
     </footer>
