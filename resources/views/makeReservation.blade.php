@@ -14,8 +14,7 @@ Reservation
 
 @section('content')
 <div>
-<div id="reactTest">
-</div>
+
   <form action="#">
     <p>Would you like to reserve a cabin or an RV space?
     </br>
@@ -27,6 +26,10 @@ Reservation
       <label for="cabin">Cabin</label>
     </p>
   </form>
+
+  <div id="test">
+  </div>
+
   <form action="#">
     <p>How would you like to rent the cabin or RV space?
     </br>
@@ -101,5 +104,4 @@ Reservation
     <i class="material-icons right">send</i>
   </button>
   </div>
-
 @stop

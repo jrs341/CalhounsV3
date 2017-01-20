@@ -13,8 +13,8 @@ class Welcome extends Controller
      */
     public function index()
     {
-        //
-        return view('welcome');
+        //change to welcome to use the blade
+        return view('index');
     }
 
     /**

@@ -1,13 +1,19 @@
+var path = require('path');
+
 module.exports = {
-  entry: "./public/js/questions.js",
+  entry: "./resources/assets/js/index.js",
   output: {
-    filename: "public/bundle.js"
+    path: './public/js',
+    filename: "bundle.js"
   },
   module: {
     loaders: [
       {
-        test: /\.js?$/,
-        include: /app/,
+        test: /\.jsx?$/,
+        include: [
+          path.resolve(__dirname, 'node_modules'),
+          path.resolve(__dirname, 'resources/assets/js')
+        ],
         loader: "babel",
         query: {
           presets: ["react", "es2015"]

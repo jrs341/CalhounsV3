@@ -8,7 +8,7 @@
     <meta name="author" content="Jason Sinn">
     <link rel="shortcut icon" href="../public/css/images/favicon.ico">
 
-    <title>@yield('title')</title>
+    <!-- <title>@yield('title')</title> -->
 
     <!-- Fonts -->
     <!-- since FA is in css remove this cdn later -->
@@ -55,9 +55,6 @@
 
     <!-- Main content container -->
 
-    <div class="container">
-    @yield('content')
-    </div>
     <div id="app"></div>
     <script src="{{ asset('js/bundle.js') }}"></script>
 
@@ -91,10 +88,5 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
 
-    <!-- React CDN for makeReservation page from makeReservation blade -->
-    
-    <div>
-    @yield('CDN')
-    </div>
 </body>
 </html>

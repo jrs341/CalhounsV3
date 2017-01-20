@@ -24,6 +24,8 @@ Calhoun's Riverside RV Retreat
         </div>
     </div>
 </div>
+
+<!-- <script type="text/javascript" src="{{asset('bundle.js')}}" charset="utf-8"></script> -->
         <!-- <i class="fa fa-spinner fa-pulse fa-3x fa-fw"></i>
         <span class="sr-only">Loading...</span> -->
 </header>
